@@ -1,0 +1,193 @@
+li{
+    list-style: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #242124;
+    color: #FFFEFA;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #242124;
+    color: #FFFEFA;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+.nav-links{
+    color: #FFFEFA;
+}
+.logo{
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color:#5f8a8b;
+}
+.menu{
+    display: flex;
+    gap: 1em;
+    font-size: 20px;
+    font-style: bold;
+    padding: 10px;
+}
+.menu li {
+    padding: 10px 15px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+.menu li:hover {
+    border-radius: 20px;
+    transition: 0.5s ease;
+    background-color: #5f8a8b;
+}
+
+.nav-links li{
+    display: inline;
+}
+main{
+    margin-top: 80px;
+    padding-bottom: 60px;
+}
+.main-cas{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+}
+.bigletter{
+    margin: 90px;
+}
+.small{
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color:#5f8a8b;
+    margin: 10px;
+}
+
+.castitle{
+    font-size: 230px;
+    color:#FFFEFA;   
+}
+.c{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-delay: 0s;
+    opacity: 0%;
+    animation-fill-mode: forwards;
+}
+.a{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-delay: 1s;
+    opacity: 0%;
+    animation-fill-mode: forwards;
+}
+.s{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-delay: 2s;
+    opacity: 0%;
+    animation-fill-mode: forwards;
+}
+.creatividad{
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-delay: 3s;
+    opacity: 0%;
+    animation-fill-mode: forwards;
+}
+.actividad{
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-delay: 4s;
+    opacity: 0%;
+    animation-fill-mode: forwards;
+}
+.servicio{
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-delay: 5s;
+    opacity: 0%;
+    animation-fill-mode: forwards;
+}
+@keyframes slidein{
+    0% {
+        margin-left: 100%;
+        opacity: 0%;
+    }
+    100%{
+        margin-right: 0%;
+        opacity: 100%;
+    }
+}
+.castitle:hover{
+    color:#5f8a8b;
+    transition: 0.3s ease;
+}
+.specific-cas{
+    text-align: center;
+}
+.flexcards{
+    display: grid;
+    grid-auto-flow: row;
+    width: 100%;
+}
+.secondtitle{
+    margin-left: 60px;
+    margin-top: 100px;
+    font-size: 60px;
+    border: solid 3px #5f8a8b;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 5px 15px 5px 15px;
+}
+footer{
+    background-color: #242124;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;  
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+  
+.buttons a {
+    text-decoration: none;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #242124;
+    color: #FFFEFA;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+  
+.buttons a:hover {
+    transform: scale(1.2);
+}
+body{
+    position: relative;
+    min-height: 100vh;
+}
