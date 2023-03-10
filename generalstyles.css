@@ -41,12 +41,13 @@ html{
     font-style: bold;
     padding: 10px;
 }
-.menu li {
+.nav-buttons {
     padding: 10px 15px;
     margin-left: 30px;
     margin-right: 15px;
+    color: #FFFEFA;
 }
-.menu li:hover {
+.nav-buttons:hover {
     border-radius: 20px;
     transition: 0.5s ease;
     background-color: #5f8a8b;
@@ -190,4 +191,13 @@ footer{
 body{
     position: relative;
     min-height: 100vh;
+}
+#language-selector{
+    background-color: #242124;
+    color: #FFFEFA;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-left: 30px;
+    margin-right: 15px;
+    border: none;
 }
