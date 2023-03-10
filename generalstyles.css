@@ -201,3 +201,7 @@ body{
     margin-right: 15px;
     border: none;
 }
+.face-image{
+    width: 20%;
+    border-radius: 1000000000px;
+}
