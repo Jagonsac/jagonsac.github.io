@@ -30,16 +30,17 @@ html{
     color: #FFFEFA;
 }
 .logo{
-    font-size: 20px;
+    font-size: 1.5vw;
     text-decoration: underline;
     text-decoration-color:#5f8a8b;
 }
 .menu{
     display: flex;
     gap: 1em;
-    font-size: 20px;
+    font-size: 1.3vw;
     font-style: bold;
     padding: 10px;
+
 }
 .nav-buttons {
     padding: 10px 15px;
@@ -68,58 +69,58 @@ main{
     align-items: center;
 }
 .bigletter{
-    margin: 90px;
+    margin: 7vw 7vw 4vw 7vw;
 }
 .small{
-    font-size: 30px;
+    font-size: 2vw;
     text-decoration: underline;
     text-decoration-color:#5f8a8b;
-    margin: 10px;
+    margin: 0 2vw 2vw 2vw;
 }
 
 .castitle{
-    font-size: 230px;
+    font-size: 15vw;
     color:#FFFEFA;   
 }
 .c{
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-name: slidein;
     animation-delay: 0s;
     opacity: 0%;
     animation-fill-mode: forwards;
 }
 .a{
-    animation-duration: 3s;
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-delay: 0.5s;
+    opacity: 0%;
+    animation-fill-mode: forwards;
+}
+.s{
+    animation-duration: 2s;
     animation-name: slidein;
     animation-delay: 1s;
     opacity: 0%;
     animation-fill-mode: forwards;
 }
-.s{
-    animation-duration: 3s;
+.creatividad{
+    animation-duration: 1s;
     animation-name: slidein;
     animation-delay: 2s;
     opacity: 0%;
     animation-fill-mode: forwards;
 }
-.creatividad{
-    animation-duration: 2s;
-    animation-name: slidein;
-    animation-delay: 3s;
-    opacity: 0%;
-    animation-fill-mode: forwards;
-}
 .actividad{
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-name: slidein;
-    animation-delay: 4s;
+    animation-delay: 2.5s;
     opacity: 0%;
     animation-fill-mode: forwards;
 }
 .servicio{
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-name: slidein;
-    animation-delay: 5s;
+    animation-delay: 3s;
     opacity: 0%;
     animation-fill-mode: forwards;
 }
