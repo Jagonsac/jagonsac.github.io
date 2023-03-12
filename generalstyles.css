@@ -235,7 +235,7 @@ body{
     }
 }
 .greeting h1{
-    margin-top: 20%;
+    margin-top: 15%;
     font-size: 8vw;
     animation-duration: 1.5s;
     animation-name: slidein;
