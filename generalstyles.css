@@ -85,48 +85,48 @@ main{
 .c{
     animation-duration: 2s;
     animation-name: slidein;
-    animation-delay: 0s;
+    animation-delay: 0.5s;
     opacity: 0%;
     animation-fill-mode: forwards;
 }
 .a{
     animation-duration: 2s;
     animation-name: slidein;
-    animation-delay: 0.5s;
+    animation-delay: 1s;
     opacity: 0%;
     animation-fill-mode: forwards;
 }
 .s{
     animation-duration: 2s;
     animation-name: slidein;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
     opacity: 0%;
     animation-fill-mode: forwards;
 }
 .creatividad{
     animation-duration: 1s;
     animation-name: slidein;
-    animation-delay: 2s;
+    animation-delay: 2.5s;
     opacity: 0%;
     animation-fill-mode: forwards;
 }
 .actividad{
     animation-duration: 1s;
     animation-name: slidein;
-    animation-delay: 2.5s;
+    animation-delay: 3s;
     opacity: 0%;
     animation-fill-mode: forwards;
 }
 .servicio{
     animation-duration: 1s;
     animation-name: slidein;
-    animation-delay: 3s;
+    animation-delay: 3.5s;
     opacity: 0%;
     animation-fill-mode: forwards;
 }
 @keyframes slidein{
     0% {
-        margin-left: 100%;
+        margin-left: 30%;
         opacity: 0%;
     }
     100%{
