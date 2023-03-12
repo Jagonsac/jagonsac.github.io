@@ -1,9 +1,19 @@
-window.addEventListener('scroll', function() {
-    var element = document.querySelector('.maincontent');
-    if (window.scrollY > 10) {
-      main-content.classList.add('animate');
-    } else {
-      main-content.classList.remove('animate');
-    }
-  });
-  
+const animation_elements = document.querySelectorAll('.main-content');
+
+const observer = new IntersectionObserver ((entries) => {
+    entries.forEach((entry) => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('animate')
+        } else {
+            entry.target.classList.remove('animate')
+        }
+    })
+}, {
+    threshold: 0.5
+});
+
+for (let i = 0; i < animation_elements.length; i++) {
+    const el = animation_elements[i];
+
+    observer.observe(el);
+}
