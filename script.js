@@ -1,4 +1,4 @@
-const animation_elements = document.querySelectorAll('.main-content');
+const animation_elements = document.querySelectorAll('.animate-on-scroll');
 
 const observer = new IntersectionObserver ((entries) => {
     entries.forEach((entry) => {
