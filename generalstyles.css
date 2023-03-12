@@ -263,3 +263,15 @@ body{
     text-decoration-color: #5f8a8b;
     text-decoration-thickness: 2px;
 }
+.main-content{
+    
+}
+.main-content.animate{
+    animation-name: moveUp;
+    animation-duration: 1s;
+}
+@keyframes moveUp{
+    0%{
+        margin-top:
+    }
+}
