@@ -9,7 +9,7 @@ const observer = new IntersectionObserver ((entries) => {
         }
     })
 }, {
-    threshold: 0.5
+    threshold: 0.4
 });
 
 for (let i = 0; i < animation_elements.length; i++) {
