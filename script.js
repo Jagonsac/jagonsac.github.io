@@ -17,3 +17,15 @@ for (let i = 0; i < animation_elements.length; i++) {
 
     observer.observe(el);
 }
+
+
+
+const gallery = document.querySelector('.gallery');
+const images = gallery.querySelectorAll('.gallery-item img');
+
+images.forEach(image => {
+  image.addEventListener('click', () => {
+    images.forEach(image => image.classList.remove('active'));
+    image.classList.add('active');
+  });
+});
