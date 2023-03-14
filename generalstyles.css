@@ -358,13 +358,13 @@ body{
     transition-delay: 0.6s;
 }
 .animate-on-scroll.web {
-    transition-delay: 1s;
+    transition-delay: 0.8s;
 }
 .animate-on-scroll.js {
-    transition-delay: 1.3s;
+    transition-delay: 1s;
 }
 .animate-on-scroll.architechture {
-    transition-delay: 1.6s;
+    transition-delay: 1.2s;
 }
 .article-card.animate-on-scroll:hover{
     box-shadow: none;
@@ -411,12 +411,12 @@ body{
     flex-grow: 999;
   }
 .description{
-        margin-left: 60px;
-        opacity: 100%;
-        text-align: justify;
-        font-size: 1.3vw;
-        margin-top: 5%;
-        width:80%;
+    margin-left: 60px;
+    opacity: 100%;
+    text-align: justify;
+    font-size: 1.3vw;
+    margin-top: 5%;
+    width:80%;
 }
 .projectlink{
     font-size: 1.2vw;

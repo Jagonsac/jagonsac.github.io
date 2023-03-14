@@ -5,6 +5,9 @@ body{
     margin: 60px;
     max-width: calc(100% - 80px);
 }
+.indexsite-container{
+    margin-top: 60px;
+}
 .article-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -38,15 +41,16 @@ body{
     display: block;
     text-decoration: none;
 }
-.article-content .cart-title {
-    margin: 1rem 0;
-    color: #5f8a8b;
+.article-content .card-title {
+    color: #FFFEFA;
+    font-size: 1.3vmax;
+    text-align: left;
 }
-.article-content .carc-excerpt {
-    font-size: 1rem;
+.article-content .card-excerpt {
     line-height: 1.5rem;
-    color:#242124;
+    color:#FFFEFA;
     margin: 0;
+    font-size: 1.2vmax;
 }
 .card-category {
     color: #FFFEFA;
