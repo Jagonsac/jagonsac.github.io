@@ -426,3 +426,45 @@ body{
     animation-duration: 1s;
     animation-delay: 4.5s;
 }
+.langcontainer{
+    width: 60%;
+    height: 60%;
+    border: solid 4px #5f8a8b;
+    border-radius: 5vw;
+}
+.langmain{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.langbuttons {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 20%;
+}
+.langbuttons a {
+    text-decoration: none; 
+    transition: all .4s ease-in-out;
+    background: #242124;
+    font-size: 1.5vw;
+    color: #FFFEFA;
+    padding: 0.5vw 1vw;
+    border-radius: 3vw;
+    border: solid 2px #5f8a8b;
+}
+.langbuttons a:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.chooselang{
+    text-align: center;
+    padding: 2vw;
+}
+.chooselang p{
+    font-size: 1.5vw;
+    margin: 2vw;
+    margin-bottom: 0;
+}
