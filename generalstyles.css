@@ -388,10 +388,10 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
+    justify-content: left;
     width: 80%;
     margin: 5%;
-    margin-left: 15%;
+    margin-left: 10%;
 }
   
 .image-gallery > li {
@@ -415,7 +415,7 @@ body{
     opacity: 100%;
     text-align: justify;
     font-size: 1.3vw;
-    margin-top: 5%;
+    margin-top: 2%;
     width:80%;
 }
 .projectlink{
@@ -467,4 +467,16 @@ body{
     font-size: 1.5vw;
     margin: 2vw;
     margin-bottom: 0;
+}
+.reflexión{
+    margin-left: 80px;
+    opacity: 100%;
+    text-align: justify;
+    font-size: 1.1vw;
+    margin-top: 2%;
+    width:85%;
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-color: #5f8a8b;
 }
