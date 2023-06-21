@@ -406,6 +406,13 @@ body{
     vertical-align: middle;
     border-radius: 10px;
 }
+.image-gallery li img:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+    z-index: 999;
+    position: relative;
+    box-shadow: #242124 0px 54px 55px, #242124 0px -12px 30px, #242124 0px 4px 6px, #242124 0px 12px 13px, #242124 0px -3px 5px;
+}
 .image-gallery::after {
     content: "";
     flex-grow: 999;
