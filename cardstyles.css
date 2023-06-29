@@ -24,36 +24,36 @@ body{
     border-radius: 20px 20px 0 0;
 }
 .article-card{
-    background: #242124;
+    background: #FFFEFA;
     border-radius: 20px;
     transition: 0.3s;
-    border: solid 0.5px #5f8a8b;
+    border: solid 2px #4171AF;
 }
 .article-card:hover{
-    box-shadow: 0 4px 15px 0 #5f8a8b;
+    box-shadow: 0 4px 15px 0 #4171AF;
     cursor: pointer;
 }
 .article-content{
     padding: 2rem;
 }
 .article-content .card-category {
-    color: #FFFEFA;
+    color: #242424;
     display: block;
     text-decoration: none;
 }
 .article-content .card-title {
-    color: #FFFEFA;
+    color: #242424;
     font-size: 1.3vmax;
     text-align: left;
 }
 .article-content .card-excerpt {
     line-height: 1.5rem;
-    color:#FFFEFA;
+    color:#242424;
     margin: 0;
     font-size: 1.2vmax;
 }
 .card-category {
-    color: #FFFEFA;
+    color: #242424;
 }
 .card-title {
     text-align: center;

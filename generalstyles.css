@@ -17,7 +17,7 @@ html{
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 10px;
     background-color: #242124;
     color: #FFFEFA;
@@ -270,7 +270,7 @@ body{
     width: 60%;
     text-align: justify;
     padding: 3%;
-    border: solid 3px #5f8a8b;
+    border: solid 3px #4171AF;
     border-radius: 50px;
 }
 .main-content h2{
