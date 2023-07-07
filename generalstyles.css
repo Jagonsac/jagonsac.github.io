@@ -17,7 +17,7 @@ html{
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding: 10px;
     background-color: #242124;
     color: #FFFEFA;
@@ -479,7 +479,7 @@ body{
     margin-left: 80px;
     opacity: 100%;
     text-align: justify;
-    font-size: 1.1vw;
+    font-size: 1.2vw;
     margin-top: 2%;
     width:85%;
 }
